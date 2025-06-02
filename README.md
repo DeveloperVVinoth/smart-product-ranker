@@ -83,5 +83,3 @@ App Framework: Streamlit
 
 📬 Contact
 For questions or suggestions, feel free to reach out!
-
-Let me know if you'd like a version with your GitHub repo link, name, or any more features!
