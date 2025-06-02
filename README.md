@@ -41,22 +41,16 @@ smart-product-ranker/
 
 
 ## 📦 Setup Instructions
-
 ### 1. Clone the Repository
-
 ```bash
-
 git clone https://github.com/your-username/smart-product-ranker.git
 cd smart-product-ranker
 
 2. Install Dependencies
-
 pip install -r requirements.txt
 
 3. Add Your API Key
-
 Create a .env file and add your Pixabay API key:
-
 PIXABAY_API_KEY=your_pixabay_api_key
 
 🔐 Never share your .env file or API key! The .gitignore already prevents it from being pushed.
@@ -68,16 +62,13 @@ streamlit run app.py
 This app uses the Brazilian E-Commerce Public Dataset by Olist, which includes detailed order, product, and customer information.
 
 📸 Image Integration
-
 We use the Pixabay API to fetch product category images dynamically based on the top recommendation.
 
 🛡️ Security Note
-
 API keys are stored securely using python-dotenv.
 .env is listed in .gitignore and should not be uploaded to GitHub.
 
 🙌 Credits
-
 Dataset: Olist on Kaggle
 API: Pixabay
 ML Model: LightGBM
@@ -86,13 +77,9 @@ App Framework: Streamlit
 
 
 💡 Future Enhancements
-
 1. Add user search history for more contextual recommendations
-
 2. Use embeddings for deeper product similarity
-
 3. Add product review sentiment analysis
-
 
 📬 Contact
 For questions or suggestions, feel free to reach out!
